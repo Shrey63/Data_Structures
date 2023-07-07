@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="999faf75-8c8c-4e3d-a097-c2b2dee10b45" name="Changes" comment="Stack is implemented with evaluation of prefix and postfix expression and conversion of infix to prefix and postfix resepectively">
+    <list default="true" id="999faf75-8c8c-4e3d-a097-c2b2dee10b45" name="Changes" comment="Starting with queue">
+      <change afterPath="$PROJECT_DIR$/src/MyCircularQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyCharStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyCharStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyQueue.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,23 +45,23 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.xyz">
-    <configuration name="Library" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Library" />
-      <module name="AllDataStructures" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MojorElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MojorElement" />
-      <module name="AllDataStructures" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MyCircularQueue">
     <configuration name="MyCharStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MyCharStack" />
+      <module name="AllDataStructures" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyCircularQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyCircularQueue" />
+      <module name="AllDataStructures" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyQueue" />
       <module name="AllDataStructures" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -82,11 +83,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyCircularQueue" />
+        <item itemvalue="Application.MyQueue" />
         <item itemvalue="Application.xyz" />
         <item itemvalue="Application.MyStack" />
         <item itemvalue="Application.MyCharStack" />
-        <item itemvalue="Application.MojorElement" />
-        <item itemvalue="Application.Library" />
       </list>
     </recent_temporary>
   </component>
@@ -103,6 +104,7 @@
       <workItem from="1688638666488" duration="7801000" />
       <workItem from="1688658706659" duration="3261000" />
       <workItem from="1688697128136" duration="14000" />
+      <workItem from="1688719935174" duration="2837000" />
     </task>
     <task id="LOCAL-00001" summary="Array added">
       <created>1688646306934</created>
@@ -125,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688646499582</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Starting with queue">
+      <created>1688720031523</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1688720031523</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,7 +144,8 @@
     <MESSAGE value="Array added" />
     <MESSAGE value="Array of objects implemented as a library project" />
     <MESSAGE value="Stack is implemented with evaluation of prefix and postfix expression and conversion of infix to prefix and postfix resepectively" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stack is implemented with evaluation of prefix and postfix expression and conversion of infix to prefix and postfix resepectively" />
+    <MESSAGE value="Starting with queue" />
+    <option name="LAST_COMMIT_MESSAGE" value="Starting with queue" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

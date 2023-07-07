@@ -7,7 +7,7 @@ public class MyCharStack {
     static Scanner sc=new Scanner(System.in);
     public static void main(String[] args) {
         MyCharStack s = new MyCharStack();
-        System.out.println("Stack Operations");
+        /* System.out.println("Stack Operations");*/
         System.out.println("\n1.Push\n2.Pop\nTraverse\n4.Reverse a string\n5.convert to postfix\n6.Conver to prefix\n7.Exit");
         int ch = sc.nextInt();
         do{

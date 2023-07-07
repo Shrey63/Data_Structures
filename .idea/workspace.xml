@@ -4,19 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="999faf75-8c8c-4e3d-a097-c2b2dee10b45" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AllDataStructures.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Array.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Library.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyCharStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SimpleArray.java" afterDir="false" />
+    <list default="true" id="999faf75-8c8c-4e3d-a097-c2b2dee10b45" name="Changes" comment="Stack is implemented with evaluation of prefix and postfix expression and conversion of infix to prefix and postfix resepectively">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyCharStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyCharStack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +44,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MyStack">
+  <component name="RunManager" selected="Application.xyz">
     <configuration name="Library" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Library" />
       <module name="AllDataStructures" />
@@ -83,8 +73,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="xyz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xyz" />
+      <module name="AllDataStructures" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.xyz" />
         <item itemvalue="Application.MyStack" />
         <item itemvalue="Application.MyCharStack" />
         <item itemvalue="Application.MojorElement" />
@@ -102,19 +100,49 @@
       <updated>1688615775726</updated>
       <workItem from="1688615776976" duration="3435000" />
       <workItem from="1688624987636" duration="5649000" />
-      <workItem from="1688638666488" duration="7432000" />
+      <workItem from="1688638666488" duration="7801000" />
+      <workItem from="1688658706659" duration="3261000" />
+      <workItem from="1688697128136" duration="14000" />
     </task>
+    <task id="LOCAL-00001" summary="Array added">
+      <created>1688646306934</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1688646306934</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Array of objects implemented as a library project">
+      <created>1688646349083</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1688646349083</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Stack is implemented with evaluation of prefix and postfix expression and conversion of infix to prefix and postfix resepectively">
+      <created>1688646499582</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1688646499582</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Array added" />
+    <MESSAGE value="Array of objects implemented as a library project" />
+    <MESSAGE value="Stack is implemented with evaluation of prefix and postfix expression and conversion of infix to prefix and postfix resepectively" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stack is implemented with evaluation of prefix and postfix expression and conversion of infix to prefix and postfix resepectively" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Array.java</url>
-          <line>153</line>
+          <line>152</line>
           <properties class="Array" method="checkUppertraingular">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />

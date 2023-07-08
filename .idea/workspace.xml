@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="999faf75-8c8c-4e3d-a097-c2b2dee10b45" name="Changes" comment="Starting with queue">
+    <list default="true" id="999faf75-8c8c-4e3d-a097-c2b2dee10b45" name="Changes" comment="Circular Queue implemented using Array">
       <change afterPath="$PROJECT_DIR$/src/MyCircularQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyQueue.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,14 +45,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MyCircularQueue">
-    <configuration name="MyCharStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MyCharStack" />
-      <module name="AllDataStructures" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Tree">
     <configuration name="MyCircularQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MyCircularQueue" />
       <module name="AllDataStructures" />
@@ -74,6 +67,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Tree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tree" />
+      <module name="AllDataStructures" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="xyz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="xyz" />
       <module name="AllDataStructures" />
@@ -83,11 +83,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Tree" />
         <item itemvalue="Application.MyCircularQueue" />
         <item itemvalue="Application.MyQueue" />
         <item itemvalue="Application.xyz" />
         <item itemvalue="Application.MyStack" />
-        <item itemvalue="Application.MyCharStack" />
       </list>
     </recent_temporary>
   </component>
@@ -104,7 +104,8 @@
       <workItem from="1688638666488" duration="7801000" />
       <workItem from="1688658706659" duration="3261000" />
       <workItem from="1688697128136" duration="14000" />
-      <workItem from="1688719935174" duration="2837000" />
+      <workItem from="1688719935174" duration="11586000" />
+      <workItem from="1688784486184" duration="2181000" />
     </task>
     <task id="LOCAL-00001" summary="Array added">
       <created>1688646306934</created>
@@ -134,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688720031523</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Queue implemented using Array">
+      <created>1688722993805</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1688722993805</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,7 +153,9 @@
     <MESSAGE value="Array of objects implemented as a library project" />
     <MESSAGE value="Stack is implemented with evaluation of prefix and postfix expression and conversion of infix to prefix and postfix resepectively" />
     <MESSAGE value="Starting with queue" />
-    <option name="LAST_COMMIT_MESSAGE" value="Starting with queue" />
+    <MESSAGE value="Queue implemented using Array" />
+    <MESSAGE value="Circular Queue implemented using Array" />
+    <option name="LAST_COMMIT_MESSAGE" value="Circular Queue implemented using Array" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -167,6 +177,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Tree.java</url>
+          <line>105</line>
+          <properties class="Tree" method="nonRecursivePreorder">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/MyCharStack.java</url>
